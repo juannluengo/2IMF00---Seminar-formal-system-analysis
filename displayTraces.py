@@ -1,5 +1,6 @@
 # Define the path to the trace file
-trace_file_path = '/Users/juanluengo/Desktop/Estudios/Universidades/4° Carrera/Quartile 4/Seminar formal system analysis/CSVinput/PT_traces.trace' # Update this path to the correct location of your PT_traces.trace file
+# trace_file_path = '/Users/juanluengo/Desktop/Estudios/Universidades/4° Carrera/Quartile 4/Seminar formal system analysis/CSVinput/PT_traces.trace' 
+trace_file_path = '/Users/juanluengo/Desktop/Estudios/Universidades/4° Carrera/Quartile 4/Seminar formal system analysis/CSVinput/COVID_19_traces.trace' 
 
 # Read and display the first few lines of the trace file
 with open(trace_file_path, 'r') as file:
