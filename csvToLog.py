@@ -5,9 +5,8 @@ def convert_to_traces(input_file_path, output_file_path):
     # Load the data from the CSV file
     data = pd.read_csv(input_file_path)
     
-    # Identify the basic event columns (excluding the last column 'N')
-    columns = data.columns[:-1]
-    be_columns = [col for col in columns if col.startswith('BE')]
+    # Identify the columns that are relevant to the events
+    be_columns = [col for col in data.columns if col.startswith('BE')]
 
     # Create a trace file in the required format
     with open(output_file_path, 'w') as file:
