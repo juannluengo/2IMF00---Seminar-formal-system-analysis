@@ -1,0 +1,27 @@
+#@author: Juan Luengo
+digraph {
+0 [operator="OR",label="Or",canberoot="1",comment="44",xpos="0",ypos="0"];
+1 [operator="BE",name="38",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="88.0",cost_uncertainty="0.07099694508473367",cost_probabilitydelta="0.05"delay="49.0",delay_uncertainty="0.012208429352713749",delay_probabilitydelta="0.05",canberoot="1",comment="38",xpos="0",ypos="0"];
+2 [operator="AND",label="And",canberoot="1",comment="40",xpos="0",ypos="0"];
+3 [operator="BE",name="38",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="88.0",cost_uncertainty="0.07099694508473367",cost_probabilitydelta="0.05"delay="49.0",delay_uncertainty="0.012208429352713749",delay_probabilitydelta="0.05",canberoot="1",comment="38",xpos="0",ypos="0"];
+4 [operator="BE",name="38",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="88.0",cost_uncertainty="0.07099694508473367",cost_probabilitydelta="0.05"delay="49.0",delay_uncertainty="0.012208429352713749",delay_probabilitydelta="0.05",canberoot="1",comment="38",xpos="0",ypos="0"];
+5 [operator="BE",name="38",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="88.0",cost_uncertainty="0.07099694508473367",cost_probabilitydelta="0.05"delay="49.0",delay_uncertainty="0.012208429352713749",delay_probabilitydelta="0.05",canberoot="1",comment="38",xpos="0",ypos="0"];
+6 [operator="BE",name="38",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="88.0",cost_uncertainty="0.07099694508473367",cost_probabilitydelta="0.05"delay="49.0",delay_uncertainty="0.012208429352713749",delay_probabilitydelta="0.05",canberoot="1",comment="38",xpos="0",ypos="0"];
+7 [operator="BE",name="38",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="88.0",cost_uncertainty="0.07099694508473367",cost_probabilitydelta="0.05"delay="49.0",delay_uncertainty="0.012208429352713749",delay_probabilitydelta="0.05",canberoot="1",comment="38",xpos="0",ypos="0"];
+8 [operator="AND",label="And",canberoot="1",comment="40",xpos="0",ypos="0"];
+9 [operator="OR",label="Or",canberoot="1",comment="44",xpos="0",ypos="0"];
+10 [operator="OR",label="Or",canberoot="1",comment="44",xpos="0",ypos="0"];
+
+
+
+8->0;
+2->0;
+1->2;
+10->8;
+4->10;
+9->2;
+7->9;
+6->8;
+5->9;
+3->10;
+}
