@@ -1,0 +1,22 @@
+#@author: Juan Luengo
+digraph {
+0 [operator="BE",name="35",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="14.0",cost_uncertainty="0.09110724172066886",cost_probabilitydelta="0.05"delay="28.0",delay_uncertainty="0.0807807256313055",delay_probabilitydelta="0.05",canberoot="1",comment="35",xpos="0",ypos="0"];
+1 [operator="BE",name="35",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="14.0",cost_uncertainty="0.09110724172066886",cost_probabilitydelta="0.05"delay="28.0",delay_uncertainty="0.0807807256313055",delay_probabilitydelta="0.05",canberoot="1",comment="35",xpos="0",ypos="0"];
+2 [operator="BE",name="35",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="14.0",cost_uncertainty="0.09110724172066886",cost_probabilitydelta="0.05"delay="28.0",delay_uncertainty="0.0807807256313055",delay_probabilitydelta="0.05",canberoot="1",comment="35",xpos="0",ypos="0"];
+3 [operator="AND",label="And",canberoot="1",comment="40",xpos="0",ypos="0"];
+4 [operator="BE",name="35",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="14.0",cost_uncertainty="0.09110724172066886",cost_probabilitydelta="0.05"delay="28.0",delay_uncertainty="0.0807807256313055",delay_probabilitydelta="0.05",canberoot="1",comment="35",xpos="0",ypos="0"];
+5 [operator="BE",name="35",distribution="Attacker",probability="1.0",uncertainty="0.0",probabilitydelta="0.0"cost="14.0",cost_uncertainty="0.09110724172066886",cost_probabilitydelta="0.05"delay="28.0",delay_uncertainty="0.0807807256313055",delay_probabilitydelta="0.05",canberoot="1",comment="35",xpos="0",ypos="0"];
+6 [operator="OR",label="Or",canberoot="1",comment="40",xpos="0",ypos="0"];
+7 [operator="AND",label="And",canberoot="1",comment="40",xpos="0",ypos="0"];
+8 [operator="AND",label="And",canberoot="1",comment="40",xpos="0",ypos="0"];
+
+
+0->8;
+1->6;
+2->3;
+3->7;
+4->6;
+5->3;
+6->7;
+7->8;
+}
